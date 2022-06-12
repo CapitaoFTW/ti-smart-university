@@ -1,0 +1,162 @@
+@font-face
+{
+	font-family: burbank;
+	src: url(BurbankBigCondensed-Bold.otf);
+}
+
+@font-face
+{
+	font-family: tf2;
+	src: url(tf2build.ttf);
+}
+
+label
+{
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+h1 
+{
+	text-align: center; 
+	font-family: burbank; 
+	text-transform: uppercase; 
+	letter-spacing: 1px; 
+	font-size: 50px;
+}
+
+h2
+{
+	text-shadow: -2px 2px #222222;
+	text-transform: uppercase;
+}
+
+body
+{ 	
+	background-attachment: fixed;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.card-text
+{
+	font-family: tf2; 
+	color: white; 
+	text-transform: uppercase; 
+	font-size: 20px; 
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.card-title
+{
+	font-family: burbank; 
+	color: white;  
+	font-size: 50px;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+form
+{
+	width: 350px;
+	padding: 15px;
+	margin: 0 auto;
+}
+
+.card-img-overlay
+{
+	opacity: 0.9;
+}
+
+.card-img
+{
+	border-radius: 8px;
+	height: 192px;
+	width: 339px;
+}
+
+.Overlay 
+{
+	top: 0;
+	bottom: 0;
+	height: 193px;
+	width: 340px;
+	opacity: 0;
+	border-radius: 8px;
+	transition: .5s ease;
+	background-color: #3498db;
+	transform: translate(-1.5%, -84.2%);
+    -ms-transform: translate(-1.5%, -84.2%);
+}
+
+.Overlay:hover
+{
+	opacity: 1;
+}
+
+.Overlay p
+{
+	font-family: burbank; 
+	letter-spacing: 1px;
+}
+
+.txt
+{
+	text-align: center;
+	text-transform: uppercase;
+	font-family: tf2;
+	font-size: 20px;
+	color: white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
+
+#navbar 
+{
+	background-color: #222222;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	display: block;
+	transition: top 0.3s;
+	opacity: 0.9;
+	margin: 0 auto 0 auto;
+	height: auto;
+}
+
+#navbar a 
+{
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	transform: translate(175%, 0%);
+	-ms-transform: translate(100%, 0%);
+	text-decoration: none;
+	border: 0;
+	padding: 0 16px;
+	color: #eee;
+	font-size: 11px;
+	font-weight: bolder;
+	line-height: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#navbar a:hover
+{
+	border: 0;
+	background-color: #277090;
+}
+
+output
+{
+	text-align: center;
+	font-family: burbank;
+	font-size: 25px;
+}
